@@ -1,0 +1,11 @@
+[package]
+name = "müchak"
+version = "0.1.0"
+authors = ["Timmy Jose <zoltan.jose@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+
+[lib]
+
+name = "müchak"
