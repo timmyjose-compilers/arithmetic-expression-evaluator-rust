@@ -87,4 +87,4 @@ Error-handling is not the best, and the error messages are terrible, and the ope
 
 # LICENSE
 
-See [LICENSE.md].
+See [LICENSE.md](LICENSE.md).
