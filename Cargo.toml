@@ -1,5 +1,5 @@
 [package]
-name = "müchak"
+name = "muechak"
 version = "0.1.0"
 authors = ["Timmy Jose <zoltan.jose@gmail.com>"]
 edition = "2018"
@@ -8,4 +8,4 @@ edition = "2018"
 
 [lib]
 
-name = "müchak"
+name = "muechak"

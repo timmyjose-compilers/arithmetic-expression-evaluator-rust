@@ -1,4 +1,4 @@
-use crate::eval::{lexer, token};
+use crate::eval;
 use std::env;
 use std::io::{self, Write};
 
@@ -30,18 +30,6 @@ pub fn run() {
         print!("{}", PROMPT);
         io::stdout().flush().unwrap();
         let input = get_line();
-        // match eval::evaluate(&input) {
-        //     Ok(res) => println!("{}", res),
-        //     Err(e) => println!("Invalid input: {}. Try again!", e),
-        // }
-        let mut lexer = lexer::Lexer::new(&input);
-        loop {
-            let token = lexer.next_token();
-            if token.kind == token::TokenType::Eof {
-                break;
-            }
-
-            println!("{:?}", token);
-        }
+        println!("{}", eval::evaluate(&input));
     }
 }

@@ -1,6 +1,6 @@
-use arith_expr;
+use muechak;
 
-use arith_expr::repl;
+use muechak::repl;
 
 fn main() {
     repl::run();
