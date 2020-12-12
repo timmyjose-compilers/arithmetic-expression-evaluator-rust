@@ -1,5 +1,5 @@
 [package]
-name = "muechak"
+name = "arithmetic-expression-evaluator-rust"
 version = "0.1.0"
 authors = ["Timmy Jose <zoltan.jose@gmail.com>"]
 edition = "2018"
